@@ -45,6 +45,9 @@ Ouvrez un terminal, compilez le jeu avec la commande "swiftc *.swift"
 Lancez le jeu avec la commande "./main"
 
 
+(Les scénarios complets sont disponibles pour tester le jeu, il suffit de lancer la commande "./main < [nomScénario].txt" après la compilation)
+
+
 Amusez-vous !
 
 
