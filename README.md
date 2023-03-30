@@ -1,11 +1,7 @@
-## Nom du projet
-Jeu Bataille navale
+## Projet
+Bataille navale est un jeu à deux joueurs codé en swift, sur le terminal. Pour l'instant le programme ne permet pas aux joueurs de jouer sur deux machines/terminals distantes.
 
-## Description et règles
-L'objectif de ce projet est de programmer un jeu de bataille navale à deux joueurs.
-
-Les règles sont les suivantes :
-
+## Règles
 
 — Les joueurs placent une ile sur chacun de leurs 3 Océans (Atlantique, Pacifique et Indien). Une ile occupe aux minimums 4 cases consécutives sur la même ligne ou la même colonne. (réprésentées par "⛰" dans la grille)
 
