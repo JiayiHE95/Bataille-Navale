@@ -1,0 +1,559 @@
+#########################
+# NOMS DES JOUEURS
+#########################
+Jack
+Aglae
+#########################
+# DIFFICULTE
+#########################
+Facile
+# pourrait être sinon Normal ou Difficile ou Extreme (sans accent pour simplifier)
+#########################
+# PLACEMENT DES ILES
+#########################
+# Océan 1 :
+0,0,1,0,0,1,2,0
+# Océan 2 : (attention, dans cet exemple, île de 5 cases)
+5,4,5,5,5,6,6,6,6,7
+# Océan 3 :
+0,0,1,0,0,1,2,0
+#########################
+# DEFINITION DES BATEAUX
+#########################
+# Bateaux de j1:
+# bateau de taille 1 : 
+o1,4,3,N
+# bateau de taille 2 :
+o2,1,3,E
+# bateau de taille 3 :
+o2,2,3,E
+# bateau de taille 3 (le 2eme) :
+o3,2,5,S
+# bateau j2 de taille 4 :
+o2,2,2,S
+# Bateaux de j2:
+# bateau de taille 1 : 
+o1,4,3,N
+# bateau de taille 2 :
+o2,1,3,E
+# bateau de taille 3 :
+o2,6,1,N
+# bateau de taille 3 (le 2eme) :
+o3,2,4,S
+# bateau j2 de taille 4 :
+o1,1,5,S
+#####################
+# LA PARTIE COMMENCE 
+##################### 
+# j1 tire :
+o1,5,0
+# j2 tire :
+o1,5,0
+# j1 tire :
+o1,5,1
+# j2 tire :
+o1,5,1
+# j1 tire :
+o1,5,2
+# j2 tire :
+o1,5,2
+# j1 tire :
+o1,5,3
+# j2 tire :
+o1,5,3
+# j1 tire :
+o1,5,4
+# j2 tire :
+o1,5,4
+# j1 tire :
+o1,5,5
+# j2 tire :
+o1,5,5
+# j1 tire :
+o1,5,6
+# j2 tire :
+o1,5,6
+# j1 tire :
+o1,4,0
+# j2 tire :
+o1,4,0
+# j1 tire :
+o1,4,1
+# j2 tire :
+o1,4,1
+# j1 tire :
+o1,4,2
+# j2 tire :
+o1,4,2
+# j1 tire :
+o1,4,3
+# j2 tire :
+o1,4,3
+# j1 tire :
+o1,4,4
+# j2 tire :
+o1,4,4
+# j1 tire :
+o1,4,5
+# j2 tire :
+o1,4,5
+# j1 tire :
+o1,4,6
+# j2 tire :
+o1,4,6
+# j1 tire :
+o1,3,0
+# j2 tire :
+o1,3,0
+# j1 tire :
+o1,3,1
+# j2 tire :
+o1,3,1
+# j1 tire :
+o1,3,2
+# j2 tire :
+o1,3,2
+# j1 tire :
+o1,3,3
+# j2 tire :
+o1,3,3
+# j1 tire :
+o1,3,4
+# j2 tire :
+o1,3,4
+# j1 tire :
+o1,3,5
+# j2 tire :
+o1,3,5
+# j1 tire :
+o1,3,6
+# j2 tire :
+o1,3,6
+# j1 tire :
+o1,2,0
+# j2 tire :
+o1,2,0
+# j1 tire :
+o1,2,1
+# j2 tire :
+o1,2,1
+# j1 tire :
+o1,2,2
+# j2 tire :
+o1,2,2
+# j1 tire :
+o1,2,3
+# j2 tire :
+o1,2,3
+# j1 tire :
+o1,2,4
+# j2 tire :
+o1,2,4
+# j1 tire :
+o1,2,5
+# j2 tire :
+o1,2,5
+# j1 tire :
+o1,2,6
+# j2 tire :
+o1,2,6
+# j1 tire :
+o1,1,0
+# j2 tire :
+o1,1,0
+# j1 tire :
+o1,1,1
+# j2 tire :
+o1,1,1
+# j1 tire :
+o1,1,2
+# j2 tire :
+o1,1,2
+# j1 tire :
+o1,1,3
+# j2 tire :
+o1,1,3
+# j1 tire :
+o1,1,4
+# j2 tire :
+o1,1,4
+# j1 tire :
+o1,1,5
+# j2 tire :
+o1,1,5
+# j1 tire :
+o1,1,6
+# j2 tire :
+o1,1,6
+# j1 tire :
+o1,0,0
+# j2 tire :
+o1,0,0
+# j1 tire :
+o1,0,1
+# j2 tire :
+o1,0,1
+# j1 tire :
+o1,0,2
+# j2 tire :
+o1,0,2
+# j1 tire :
+o1,0,3
+# j2 tire :
+o1,0,3
+# j1 tire :
+o1,0,4
+# j2 tire :
+o1,0,4
+# j1 tire :
+o1,0,5
+# j2 tire :
+o1,0,5
+# j1 tire :
+o1,0,6
+# j2 tire :
+o1,0,6
+# j1 tire :
+o2,6,0
+# j2 tire :
+o2,6,0
+# j1 tire :
+o2,6,1
+# j2 tire :
+o2,6,1
+# j1 tire :
+o2,6,2
+# j2 tire :
+o2,6,2
+# j1 tire :
+o2,6,3
+# j2 tire :
+o2,6,3
+# j1 tire :
+o2,6,4
+# j2 tire :
+o2,6,4
+# j1 tire :
+o2,6,5
+# j2 tire :
+o2,6,5
+# j1 tire :
+o2,6,6
+# j2 tire :
+o2,6,6
+# j1 tire :
+o2,6,7
+# j2 tire :
+o2,6,7
+# j1 tire :
+o2,5,0
+# j2 tire :
+o2,5,0
+# j1 tire :
+o2,5,1
+# j2 tire :
+o2,5,1
+# j1 tire :
+o2,5,2
+# j2 tire :
+o2,5,2
+# j1 tire :
+o2,5,3
+# j2 tire :
+o2,5,3
+# j1 tire :
+o2,5,4
+# j2 tire :
+o2,5,4
+# j1 tire :
+o2,5,5
+# j2 tire :
+o2,5,5
+# j1 tire :
+o2,5,6
+# j2 tire :
+o2,5,6
+# j1 tire :
+o2,5,7
+# j2 tire :
+o2,5,7
+# j1 tire :
+o2,4,0
+# j2 tire :
+o2,4,0
+# j1 tire :
+o2,4,1
+# j2 tire :
+o2,4,1
+# j1 tire :
+o2,4,2
+# j2 tire :
+o2,4,2
+# j1 tire :
+o2,4,3
+# j2 tire :
+o2,4,3
+# j1 tire :
+o2,4,4
+# j2 tire :
+o2,4,4
+# j1 tire :
+o2,4,5
+# j2 tire :
+o2,4,5
+# j1 tire :
+o2,4,6
+# j2 tire :
+o2,4,6
+# j1 tire :
+o2,4,7
+# j2 tire :
+o2,4,7
+# j1 tire :
+o2,3,0
+# j2 tire :
+o2,3,0
+# j1 tire :
+o2,3,1
+# j2 tire :
+o2,3,1
+# j1 tire :
+o2,3,2
+# j2 tire :
+o2,3,2
+# j1 tire :
+o2,3,3
+# j2 tire :
+o2,3,3
+# j1 tire :
+o2,3,4
+# j2 tire :
+o2,3,4
+# j1 tire :
+o2,3,5
+# j2 tire :
+o2,3,5
+# j1 tire :
+o2,3,6
+# j2 tire :
+o2,3,6
+# j1 tire :
+o2,3,7
+# j2 tire :
+o2,3,7
+# j1 tire :
+o2,2,0
+# j2 tire :
+o2,2,0
+# j1 tire :
+o2,2,1
+# j2 tire :
+o2,2,1
+# j1 tire :
+o2,2,2
+# j2 tire :
+o2,2,2
+# j1 tire :
+o2,2,3
+# j2 tire :
+o2,2,3
+# j1 tire :
+o2,2,4
+# j2 tire :
+o2,2,4
+# j1 tire :
+o2,2,5
+# j2 tire :
+o2,2,5
+# j1 tire :
+o2,2,6
+# j2 tire :
+o2,2,6
+# j1 tire :
+o2,2,7
+# j2 tire :
+o2,2,7
+# j1 tire :
+o2,1,0
+# j2 tire :
+o2,1,0
+# j1 tire :
+o2,1,1
+# j2 tire :
+o2,1,1
+# j1 tire :
+o2,1,2
+# j2 tire :
+o2,1,2
+# j1 tire :
+o2,1,3
+# j2 tire :
+o2,1,3
+# j1 tire :
+o2,1,4
+# j2 tire :
+o2,1,4
+# j1 tire :
+o2,1,5
+# j2 tire :
+o2,1,5
+# j1 tire :
+o2,1,6
+# j2 tire :
+o2,1,6
+# j1 tire :
+o2,1,7
+# j2 tire :
+o2,1,7
+# j1 tire :
+o2,0,0
+# j2 tire :
+o2,0,0
+# j1 tire :
+o2,0,1
+# j2 tire :
+o2,0,1
+# j1 tire :
+o2,0,2
+# j2 tire :
+o2,0,2
+# j1 tire :
+o2,0,3
+# j2 tire :
+o2,0,3
+# j1 tire :
+o2,0,4
+# j2 tire :
+o2,0,4
+# j1 tire :
+o2,0,5
+# j2 tire :
+o2,0,5
+# j1 tire :
+o2,0,6
+# j2 tire :
+o2,0,6
+# j1 tire :
+o2,0,7
+# j2 tire :
+o2,0,7
+# j1 tire :
+o3,4,0
+# j2 tire :
+o3,4,0
+# j1 tire :
+o3,4,1
+# j2 tire :
+o3,4,1
+# j1 tire :
+o3,4,2
+# j2 tire :
+o3,4,2
+# j1 tire :
+o3,4,3
+# j2 tire :
+o3,4,3
+# j1 tire :
+o3,4,4
+# j2 tire :
+o3,4,4
+# j1 tire :
+o3,4,5
+# j2 tire :
+o3,4,5
+# j1 tire :
+o3,3,0
+# j2 tire :
+o3,3,0
+# j1 tire :
+o3,3,1
+# j2 tire :
+o3,3,1
+# j1 tire :
+o3,3,2
+# j2 tire :
+o3,3,2
+# j1 tire :
+o3,3,3
+# j2 tire :
+o3,3,3
+# j1 tire :
+o3,3,4
+# j2 tire :
+o3,3,4
+# j1 tire :
+o3,3,5
+# j2 tire :
+o3,3,5
+# j1 tire :
+o3,2,0
+# j2 tire :
+o3,2,0
+# j1 tire :
+o3,2,1
+# j2 tire :
+o3,2,1
+# j1 tire :
+o3,2,2
+# j2 tire :
+o3,2,2
+# j1 tire :
+o3,2,3
+# j2 tire :
+o3,2,3
+# j1 tire :
+o3,2,4
+# j2 tire :
+o3,2,4
+# j1 tire :
+o3,2,5
+# j2 tire :
+o3,2,5
+# j1 tire :
+o3,1,0
+# j2 tire :
+o3,1,0
+# j1 tire :
+o3,1,1
+# j2 tire :
+o3,1,1
+# j1 tire :
+o3,1,2
+# j2 tire :
+o3,1,2
+# j1 tire :
+o3,1,3
+# j2 tire :
+o3,1,3
+# j1 tire :
+o3,1,4
+# j2 tire :
+o3,1,4
+# j1 tire :
+o3,1,5
+# j2 tire :
+o3,1,5
+# j1 tire :
+o3,0,0
+# j2 tire :
+o3,0,0
+# j1 tire :
+o3,0,1
+# j2 tire :
+o3,0,1
+# j1 tire :
+o3,0,2
+# j2 tire :
+o3,0,2
+# j1 tire :
+o3,0,3
+# j2 tire :
+o3,0,3
+# j1 tire :
+o3,0,4
+# j2 tire :
+o3,0,4
+# j1 tire :
+o3,0,5
+# j2 tire :
+o3,0,5
