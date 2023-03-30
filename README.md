@@ -50,22 +50,3 @@ Lancez le jeu avec la commande "./main"
 
 Amusez-vous !
 
-
-## Support
-
-https://moodle.umontpellier.fr/pluginfile.php/1902078/mod_resource/content/4/TP_Projet_Algo_IG3_2022-2023-BatailleNavale.pdf
-
-https://gitlab.polytech.umontpellier.fr/ines.amzert/projet_algo_bataillenavale
-
-## Contacts
-
-jiayi.he@etu.umontpellier.fr
-
-ines.amzert@etu.umontpellier.fr
-
-
-## Auteurs
--  Jiayi He
-
--  Ines Amzert
-
