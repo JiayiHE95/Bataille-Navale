@@ -1,52 +1,90 @@
-## Projet
-Bataille navale est un jeu à deux joueurs codé en swift, sur le terminal. Pour l'instant le programme ne permet pas aux joueurs de jouer sur deux machines/terminals distantes.
+<div align="center">
 
-## Règles
+# Bataille Navale – Jeu en Swift (Terminal)
 
-— Les joueurs placent une ile sur chacun de leurs 3 Océans (Atlantique, Pacifique et Indien). Une ile occupe aux minimums 4 cases consécutives sur la même ligne ou la même colonne. (réprésentées par "⛰" dans la grille)
+Un jeu de **bataille navale à deux joueurs**, développé en **Swift** et jouable directement dans le terminal.
 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+  <img alt="Creative Commons License" style="border-width:0"
+       src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+</a><br />
+Ce projet est sous licence
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+  Creative Commons Attribution – NonCommercial – NoDerivatives 4.0 International
+</a>.
 
-— Les joueurs placent ensuite leurs bateaux : 5 bateaux de tailles 1 à 4, dont deux de taille 3 qui, comme les iles, occupe des cases consécutives sur la même ligne ou même colonne d'un océan. (réprésentés par "⛴" dans la grille)
+---
 
+**Décembre 2022**  
 
-— Les joueurs jouent à tour de rôle.
+</div>
 
+## 📋 Sommaire
 
-— Le joueur actif tire sur une position et le programme doit répondre :
+- [Présentation](#présentation)
+- [Règles du Jeu](#règles-du-jeu)
+- [Installation & Lancement](#installation--lancement)
+- [Contributeurs](#contributeurs)
 
-— « touché » si la position est occupé par un bateau et qu’il n’a pas été encore touché à cette
-position ; (réprésenté par "✘" dans la grille)
+---
 
-— « coulé » si la position est occupé par un bateau et que c’était la dernière position du bateau
-non encore touchée ; (réprésenté par "☠" dans la grille)
+## 📝 Présentation
 
-— « en vue » si la position n’est pas occupée par un bateau ou qu’elle correspond à une position
-déjà touchée, et que sur la ligne ou la colonne (ou les deux) se trouve une position non touchée
-occupée par un bateau ; (réprésenté par "👁" dans la grille) 
+Le projet **Bataille Navale** est un jeu à deux joueurs codé en **Swift** et jouable directement dans le terminal.  
 
-— « à l’eau » dans les autres cas. (réprésenté par "▓" dans la grille)
+👉 Actuellement, le jeu ne permet pas encore de jouer sur deux machines ou terminaux distants.  
 
+L’objectif est simple : **couler la flotte ennemie** en tirant stratégiquement sur ses positions.
 
-La partie est gagnée par le joueur actif si à la suite d’un tir, il coule le dernier bateau de la flotte de son
-adversaire.
+---
 
+## ⚔️ Règles du Jeu
 
-## Installation
+- Chaque joueur dispose de **3 océans** : Atlantique, Pacifique et Indien.  
+- Ils placent une **île** sur chacun d’eux, occupant **au moins 4 cases consécutives** (ligne ou colonne).  
+  - Représentée par `⛰` dans la grille.  
 
-Installez swift
+- Ensuite, les joueurs placent **5 bateaux** :
+  - Tailles de 1 à 4 cases  
+  - Deux bateaux de taille 3  
+  - Représentés par `⛴`  
 
+- Les joueurs jouent **à tour de rôle** et effectuent un tir :  
 
-Téléchargez le dossier "src" contenant les fichiers du jeu
+  - **Touché** : la case contient un bateau non encore touché → `✘`  
+  - **Coulé** : le tir détruit la dernière partie d’un bateau → `☠`  
+  - **En vue** : tir raté, mais un bateau est présent sur la même ligne/colonne non encore touché → `👁`  
+  - **À l’eau** : aucun bateau en vue → `▓`  
 
+🎯 La partie est gagnée lorsqu’un joueur coule le **dernier bateau** de son adversaire.
 
-Ouvrez un terminal, compilez le jeu avec la commande "swiftc *.swift"
+---
 
+## 🚀 Installation & Lancement
 
-Lancez le jeu avec la commande "./main"
+1. Installer **Swift** sur votre machine.  
+2. Télécharger le dossier **`src`** contenant les fichiers du jeu.  
+3. Ouvrir un terminal et compiler le projet :  
 
+   ```bash
+   swiftc *.swift
+   ```
 
-(Les scénarios complets sont disponibles pour tester le jeu, il suffit de lancer la commande "./main < [nomScénario].txt" après la compilation)
+4. Lancer le jeu avec :  
 
+   ```bash
+   ./main
+   ```
 
-Amusez-vous !
+5. Pour exécuter un scénario de test :  
 
+   ```bash
+   ./main < [nomScenario].txt
+   ```
+
+---
+
+## 🤝 Contributeurs
+
+- [**Jiayi He**](https://github.com/JiayiHE95)
+- [**Ines Amzert**](https://github.com/Inesamzr)  
